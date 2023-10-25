@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.text-rosado{
+    color: #FF69B4;
+}
+body {
+    align-items: center;
+    min-height:60vh;
+    background-image: url('/mavala//img/nos.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+}
+.parrrafo{
+    
+    font-size: 50%; /* Puedes ajustar este valor según tus preferencias */
+      
+}
+
+.contenido {
+    background-color: transparent; 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px;
+    text-align: center;
+}
+.cuadro {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Estilo para el contenedor de los cuadros y párrafos */
+.contenedor-cuadros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 15px; /* Espacio entre los cuadros */
+}
+
+#cuadro1 {
+    margin-left: 50px;
+    background-image: url('/mavala/img/conce.jpg'); 
+
+}
+
+#cuadro2 {
+    margin-left: 70px;
+    background-image: url('/mavala/img/tip.avif'); 
+   
+}
+
+#cuadro3 {
+    margin-left: 50px;
+    background-image: url('/mavala/img/calcu.jpg'); 
+}
+.parrafo-derecha { 
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+.parrafo-centro {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    grid-column: span 3;
+}
+.parrafo-izquierda {
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.btn-1{
+    
+    padding: 4px 1px;
+    border-radius: 10px;
+    background-color: #FF69B4;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-left: 100px;
+    text-align: center;
+    width: 200px;
+}
+
+.btn-1:hover{
+    background-color: #e4308a;
+}

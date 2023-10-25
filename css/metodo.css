@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.text-rosado{
+    color: #FF69B4;
+}
+body {
+    align-items: center;
+    min-height:60vh;
+    background-image: url('/mavala//img/fon.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+}
+p{
+    color: black;
+}
+.contenido {
+    background-color: transparent; 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px;
+}
+.cuadro {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Estilo para el contenedor de los cuadros y párrafos */
+.contenedor-cuadros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tres columnas */
+    gap: 100px; /* Espacio entre los cuadros */
+}
+
+#cuadro1 {
+    margin-left: 150px;
+    background-image: url('/mavala/img/meto0.avif'); 
+
+}
+
+#cuadro2 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/meto2.png'); 
+}
+#cuadro3{
+    margin-left: 150px;
+    background-image: url('/mavala/img/imp.jpg'); 
+
+}
+
+#cuadro4 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/inye.jpg'); 
+}
+#cuadro5 {
+    margin-left: 150px;
+    background-image: url('/mavala/img/par.jpg'); 
+
+}
+
+#cuadro6{
+    margin-left: 130px;
+    background-image: url('/mavala/img/ani.jpg'); 
+}
+.cuadro {
+    margin-left: 150px;
+    background-image: url('/mavala/img/esponja.jpg'); 
+
+}
+#cuadro8 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/diafr.png'); 
+}
+#cuadro9 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/esper.png'); 
+}
+#cuadro10 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/capu.jpg'); 
+}
+#cuadro11 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/pf.jpg'); 
+}
+#cuadro12 {
+    margin-left: 130px;
+    background-image: url('/mavala/img/cond.jpg'); 
+}
+#cuadro13 {
+    
+    background-image: url('/mavala/img/pild.png'); 
+}
+h5 {
+    color: #333;
+  }

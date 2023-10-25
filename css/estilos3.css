@@ -1,0 +1,25 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-rosado{
+    color: #FF69B4;
+}
+
+
+body{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/mavala/img/form.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+form{
+    margin-top: 60px;
+}

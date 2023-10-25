@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-rosado{
+    color: #ff69c1;
+}
+h1{
+    
+    margin: 10px;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url('/mavala/img/fontip.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    margin: auto 10px ;
+}
+
+h3{
+    text-align: center;
+}
+.card {
+    margin: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: pink;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    max-width: 300px; /* Establece un ancho máximo para las tarjetas */
+    /* height: auto; */ /* Puedes quitar la altura si deseas que se ajuste automáticamente */
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 100px;
+}
+.card .containe{
+    padding: 40px;
+    text-align: center;
+}
+.card .containe p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.containe {
+    display: flex; /* Utiliza flexbox para alinear las tarjetas */
+    flex-direction: column; /* Establece la dirección del flexbox en columna */
+    align-items: center; /* Centra las tarjetas verticalmente en el contenedor */
+}
+
+
+  

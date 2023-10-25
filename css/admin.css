@@ -1,0 +1,16 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+body{
+	background: url(/mavala/img/admin.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+	padding: 23%;
+}
+
+.text-rosado{
+    color: #FF69B4;
+}
+

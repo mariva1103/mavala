@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+}
+body {
+    align-items: center;
+    min-height:60vh;
+    background-image: url('/mavala//img/cico.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin-left: 30px;
+}
+
+.contenido {
+    background-color: transparent; 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 100px;
+}
+h1 {
+
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+input{
+    margin: center;
+}
+button{
+    text-align: center;
+    
+}
+
+#resultado {
+    font-weight: bold;
+    color: #FF69B4;
+    
+}
+
+.text-rosado {
+    color: #FF69B4;
+}
+
+button {
+    background-color: #FF69B4;
+    color: white;
+    border: 3px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #D846A6;
+}
+
+.calculo{
+    
+    margin-left: 5%;
+  
+}
